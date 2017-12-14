@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align:center;
+}
+div {
+	text-align:center;
+    font-size: 20px;
+    font-family: verdana;
+}
+#topmenu {
+	padding: 5px;
+	text-align: center;
+	list-type: none;
+}
+
+#topmenu li{
+  display: inline;
+  font-family: verdana;
+  font-size: 16px;
+  background-color: #FF1F9A;
+}
+#interests ul{
+  list-style: none;
+}
+#interests li{
+  display: inline;
+  font-family: verdana;
+  font-size: 16px;
+}
+
+</style>
+</head>
+<body>
+<p style="color:#00008B"><strong>Scooters Alpha Blog</strong></p>
+  <ul id=topmenu>
+    <li><%= link_to 'Home', root_path %></li>
+    <li><%= link_to 'Contact', contact_path %></li>
+    <li><%= link_to 'About', about_path %></li>
+  </ul>
+<div style="text-align:center"><img Height="150" src="http://thewowstyle.com/wp-content/uploads/2015/02/Landscape-Photography-Brisbane.jpg"></img></div>
+    <div>Welcome to the blog homepage.</section>
+    <div>Additional informaiton will be provided at a later date.</div>
+    <footer>
+      <p style="font-size:12">ABC Company Inc.      LGLP</p>
+    </footer>
+  </body>
+</html>
